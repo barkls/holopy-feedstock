@@ -1,6 +1,6 @@
 {% set name = "HoloPy" %}
-{% set version = "test1.2" %}
-{% set sha256 = "5771b8cbac1392c596116efb5b473f2b5cd767301aa997704153087653fd9d64" %}
+{% set version = "test1.3" %}
+{% set sha256 = "b6965d0ba3ab41a1baa0d6a359b5116cd929bcb66c8fec783a4a860342d6d199" %}
 
 package:
   name: {{ name|lower }}
@@ -44,8 +44,6 @@ requirements:
 test:
   imports:
     - holopy
-  requires:
-    - nose
 
 about:
   home: http://manoharan.seas.harvard.edu/holopy
