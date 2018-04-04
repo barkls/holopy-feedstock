@@ -1,6 +1,6 @@
 {% set name = "HoloPy" %}
-{% set version = "wt1.0" %}
-{% set sha256 = "fd9635a5d67980a95ffa92b80c59f1e343f97542965c2ee3eefffd073d2def28" %}
+{% set version = "test1.0" %}
+{% set sha256 = "b06b3d282d354655a233c8a3f1bef876b824c5b3fd852a8db6de7d6bc2c8dc09" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,6 @@ source:
 build:
   number: 3
   skip: True  # [py2k or win32]
-  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
