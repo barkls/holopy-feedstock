@@ -1,6 +1,6 @@
 {% set name = "HoloPy" %}
-{% set version = "test1.3" %}
-{% set sha256 = "b6965d0ba3ab41a1baa0d6a359b5116cd929bcb66c8fec783a4a860342d6d199" %}
+{% set version = "test2.0" %}
+{% set sha256 = "cd0d93436ac62b74fad1b3ca631606ce2500a38b29d4a143448a50ab3a20ff22" %}
 
 package:
   name: {{ name|lower }}
