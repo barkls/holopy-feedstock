@@ -18,7 +18,8 @@ build:
 requirements:
   build:
     - python
-    - numpy 1.12.*
+    - numpy 1.12.*  # [not win]
+    - numpy 1.14.*  # [win]
     - setuptools
     - gcc  # [not win]
     - toolchain3
@@ -26,7 +27,8 @@ requirements:
 
   run:
     - python
-    - numpy >=1.12
+    - numpy 1.12.*  # [not win]
+    - numpy 1.14.*  # [win]
     - scipy
     - pyyaml
     - pillow
