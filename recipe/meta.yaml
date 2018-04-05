@@ -35,7 +35,7 @@ requirements:
     - h5py
     - emcee
     - matplotlib
-    - xarray >=0.9
+    - xarray >=0.95
     - h5netcdf
     - libgcc  # [linux]
     - libgfortran  # [osx]
