@@ -1,6 +1,6 @@
 {% set name = "HoloPy" %}
-{% set version = "test2.5" %}
-{% set sha256 = "d7d744a35a2fa8c6be7bc5e339c5e1d9302023d3c558e1d4e1c9cdab233e29f6" %}
+{% set version = "test2.4" %}
+{% set sha256 = "e62797c8fbd276faa85a1268b46f8f8560934e4b78210c5ad468c065299e7ca7" %}
 
 package:
   name: {{ name|lower }}
@@ -27,15 +27,15 @@ requirements:
 
   run:
     - python
-    - numpy 1.12.*  # [not win]
-    - numpy 1.14.*  # [win]
+    - numpy >=1.12  # [not win]
+    - numpy >=1.14  # [win]
     - scipy
     - pyyaml
     - pillow
     - h5py
     - emcee
     - matplotlib
-    - xarray >=0.9.5
+    - xarray >=0.95
     - h5netcdf
     - libgcc  # [linux]
     - libgfortran  # [osx]
